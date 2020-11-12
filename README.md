@@ -34,8 +34,9 @@ There are some functions you can issue in this program to create your arp messag
             >>   mess1=(sip=192.168.10.1 , htype=2 , opcode=2)
         
         
-  checking message contents :
-     Another useful command is ( show MESSAGE_NAME ) which prints out fields of that message
+  ### checking message contents :
+      
+      Another useful command is ( show MESSAGE_NAME ) which prints out fields of that message
      
      
      
@@ -45,14 +46,15 @@ There are some functions you can issue in this program to create your arp messag
         
         
      
-  see which interface was set:
-    you can check the current selected interface in program by ( show int or show interface ).
-    by default no interface is selected
+  ### see which interface was set:
+     you can check the current selected interface in program by ( show int or show interface ).
+    
+     by default no interface is selected
           
           
           
             
-   setting interface :
+   ### setting interface :
      Another useful command is (setint) , which sets an interface for you.
          ex:
               >> setint vmnet1
