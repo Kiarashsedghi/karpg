@@ -1,7 +1,7 @@
 # karpg
 
-KARPG is a cli ARP packet generator.\n
-KARPG uses self designed command line parser , usgin strong regex and some string processing functions;
+KARPG is a cli ARP packet generator.<br/>
+KARPG uses self designed command line parser , usgin strong regex and some string processing functions.<br/>
 This project is under development.
 
 
