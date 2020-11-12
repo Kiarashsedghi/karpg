@@ -27,13 +27,18 @@ There are some functions you can issue in this program to create your arp messag
    but these values can be changed easily by issueing create function again on that message name :
    
     ex: 
-      default_fiels 
+      create a message with name (mess1) and with default fields
             >>  mess1=()
             
       change some values: 
             >>   mess1=(sip=192.168.10.1 , htype=2 , opcode=2)
+            
+   or you can simple create a message with your initial fiels:
         
-        
+        ex
+            create a new message with name ( mess2 ) and with my default fields   
+                 >> mess2=(opcode= 2 , sip =192.168.10.1 , tmac= 01005e010000)
+          
   ### checking message contents :
       
       Another useful command is ( show MESSAGE_NAME ) which prints out fields of that message
