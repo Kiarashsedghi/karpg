@@ -47,10 +47,10 @@ There are some functions you can issue in this program to create & maintain your
       Another useful command is ( show MESSAGE_NAME ) which prints out fields of that message
       
       ex 
-          >> show mess2
-          OUTPUT: 
-            (opcode: 2 , heln: 6 , plen: 4, htype: 1,
-            ptype: 2048, smac: 000000000000, tmac: 01:00:53:01:00:00, sip: 192.168.10.1 , tip:255.255.255.255)
+         >> show mess2
+         OUTPUT: 
+          (opcode: 2 , heln: 6 , plen: 4, htype: 1,
+          ptype: 2048, smac: 000000000000, tmac: 01:00:53:01:00:00, sip: 192.168.10.1 , tip:255.255.255.255)
           
      
      
@@ -69,7 +69,7 @@ There are some functions you can issue in this program to create & maintain your
         OUTPUT:
           Interface = vmnet1
           
-  ### send
+  ### send an ARP message
        This function is for sending . This version of KARPG does not support parser for send , 
        so it simply asks you interactively for some informations.
        
