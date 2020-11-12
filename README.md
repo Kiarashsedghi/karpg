@@ -5,7 +5,7 @@ KARPG is a cli arp packet generator .
 
 
 ## commands
-There are some functions you can issue in this program to create your arp message :
+There are some functions you can issue in this program to create & maintain your arp message :
   
   ### create an ARP message :
         YOUR_ARP_MESSAGE_NAMe = ( arp_fields* )
@@ -65,7 +65,23 @@ There are some functions you can issue in this program to create your arp messag
         >> show int
         OUTPUT:
           Interface = vmnet1
-         
+          
+  ### send
+       This function is for sending . This version of KARPG does not support parser for send , so it simply asks you interactively 
+       for some informations.
+       
+       defaults:
+        smac: mac address of selected NIC
+        tmac: ff:ff:ff:ff:ff:ff
+        count: 1
+       
+       ex
+          >> send
+              message: mess1
+              smac :[d for default] d
+              tmac :[d for default] d
+              count :[d for default] 12
+
 
           
           
