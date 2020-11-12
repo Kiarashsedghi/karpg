@@ -6,10 +6,11 @@ KARPG is a cli arp packet generator .
 
 ## commands
 There are some functions you can issue in this program to create your arp message :
-  create an ARP message :
-    YOUR_ARP_MESSAGE_NAMe = ( arp_fields* )
+  
+  ### create an ARP message :
+        YOUR_ARP_MESSAGE_NAMe = ( arp_fields* )
     
-    arp_fields is : ( opcode = value | hlen = value | plen= vlaue | htype = value | ptype = value | sip = vlaue | tip = vlaue | smac = vlaue | tmac = value )
+           arp_fields is : ( opcode = value | hlen = value | plen= vlaue | htype = value | ptype = value | sip = vlaue | tip = vlaue | smac = vlaue | tmac = value )
     
   if you do not specify any arp_fields in paranthesis , some default values are given to above fields in ARP message :
       opcode = 1 
