@@ -1,6 +1,7 @@
 # karpg
 
 KARPG is a cli arp packet generator .
+This project is under development.
 
 
 
@@ -10,7 +11,9 @@ There are some functions you can issue in this program to create & maintain your
   ### create an ARP message :
         YOUR_ARP_MESSAGE_NAMe = ( arp_fields* )
     
-           arp_fields is : ( opcode = value | hlen = value | plen= vlaue | htype = value | ptype = value | sip = vlaue | tip = vlaue | smac = vlaue | tmac = value )
+           arp_fields is : (  opcode = value | hlen = value | plen= vlaue | 
+                              htype = value | ptype = value | sip = vlaue | tip = vlaue |
+                              smac = vlaue | tmac = value )
     
   if you do not specify any arp_fields in paranthesis , some default values are given to above fields in ARP message :
       opcode = 1 
@@ -67,8 +70,8 @@ There are some functions you can issue in this program to create & maintain your
           Interface = vmnet1
           
   ### send
-       This function is for sending . This version of KARPG does not support parser for send , so it simply asks you interactively 
-       for some informations.
+       This function is for sending . This version of KARPG does not support parser for send , 
+       so it simply asks you interactively for some informations.
        
        defaults:
         smac: mac address of selected NIC
@@ -94,7 +97,8 @@ There are some functions you can issue in this program to create & maintain your
               OUTPUT:
                 interface {vmnet1} was set as default interface
 
-            
+
+
             
    
 
