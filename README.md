@@ -1,6 +1,6 @@
 # karpg
 
-KARPG is a cli arp packet generator .
+KARPG is a cli ARP packet generator .
 This project is under development.
 
 
