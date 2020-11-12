@@ -2,6 +2,9 @@
 
 KARPG is a cli arp packet generator .
 
+
+
+## commands
 There are some functions you can issue in this program to create your arp message :
   create an ARP message :
     YOUR_ARP_MESSAGE_NAMe = ( arp_fields* )
@@ -32,6 +35,11 @@ There are some functions you can issue in this program to create your arp messag
         
   checking message contents :
      Another useful command is ( show MESSAGE_NAME ) which prints out fields of that message
+     
+     
+     
+     
+     
         
         
         
@@ -52,6 +60,6 @@ There are some functions you can issue in this program to create your arp messag
    
 
             
-       
+
     
             
