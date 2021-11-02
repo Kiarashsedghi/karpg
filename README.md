@@ -10,7 +10,7 @@ This project is under development.
 There are some functions you can issue in this program to create & maintain your arp message :
   
   ### create an ARP message :
-        YOUR_ARP_MESSAGE_NAMe = ( arp_fields* )
+        YOUR_ARP_MESSAGE_NAME = ( arp_fields* )
     
            arp_fields is : (  opcode = value | hlen = value | plen= vlaue | 
                               htype = value | ptype = value | sip = vlaue | tip = vlaue |
