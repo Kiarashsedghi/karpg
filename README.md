@@ -37,10 +37,10 @@ There are some functions you can issue in this program to create & maintain your
       change some values: 
             >>   mess1=(sip=192.168.10.1 , htype=2 , opcode=2)
             
-   or you can simple create a message with your initial fiels:
+   or you can simply create a message with your initial fields:
         
         ex
-            create a new message with name ( mess2 ) and with my default fields   
+            create a new message with name (mess2) and with default fields   
                  >> mess2=(opcode= 2 , sip =192.168.10.1 , tmac= 01005e010000)
           
   ### checking message contents :
